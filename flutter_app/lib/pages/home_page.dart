@@ -23,7 +23,7 @@ class HomePage extends StatelessWidget {
               Card(
                 child: Container(
                   padding: const EdgeInsets.all(8.0),
-                  child: Image.asset('images/space.png'),
+                  // child: Image.asset('images/space.png'),
                 ),
               ),
             ],
