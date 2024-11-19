@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/class/item_class.dart';
+import 'package:flutter_app/widget/card_widget.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -9,26 +11,31 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Flutter App'),
       ),
-      body: Column(
-        children: [
-          Card(
-            child: Container(
-              padding: const EdgeInsets.all(8.0),
-              width: double.infinity,
-              child: Image.asset('images/rocket.png'),
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            CardWidget(
+              box: ItemClass(title: 'Rocket', color: Colors.red),
             ),
-          ),
-          Row(
-            children: [
-              Card(
-                child: Container(
-                  padding: const EdgeInsets.all(8.0),
-                  // child: Image.asset('images/space.png'),
+            Row(
+              children: [
+                Expanded(
+                  child: CardWidget(
+                    box: ItemClass(title: 'Travel', color: Colors.green),
+                  ),
                 ),
-              ),
-            ],
-          ),
-        ],
+                Expanded(
+                  child: CardWidget(
+                    box: ItemClass(title: 'Space', color: Colors.blue),
+                  ),
+                ),
+              ],
+            ),
+            CardWidget(
+              box: ItemClass(title: 'Yeah', color: Colors.purple),
+            ),
+          ],
+        ),
       ),
     );
   }
