@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/class/item_class.dart';
 import 'package:flutter_app/core/constants.dart';
+import 'package:flutter_app/pages/description_page.dart';
 
 class CardWidget extends StatelessWidget {
   const CardWidget({
@@ -13,8 +14,13 @@ class CardWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        // ignore: avoid_print
-        print('Tap!');
+        Navigator.push(context, MaterialPageRoute(
+          builder: (context) {
+            return DescriptionPage(
+              box: box,
+            );
+          },
+        ));
       },
       child: Card(
         color: box.color,

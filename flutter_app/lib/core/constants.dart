@@ -2,3 +2,5 @@ const double kDouble5 = 5.0;
 const double kDouble10 = 10.0;
 const double kDouble20 = 20.0;
 const double kDouble40 = 40.0;
+
+const String description = 'Lorem ipsum odor amet, consectetuer adipiscing elit. Porttitor vehicula nisi imperdiet feugiat fermentum netus. Faucibus velit congue massa nisl quisque adipiscing augue ante. Pretium natoque augue consequat at potenti diam consectetur tempor. Sit semper vivamus amet nec faucibus. Adipiscing ante scelerisque potenti iaculis inceptos mi ipsum nibh. Viverra fusce et dolor vestibulum dapibus sollicitudin, aliquam amet justo. Porttitor porta dolor est nulla sapien at vestibulum scelerisque convallis. Ut hendrerit tempus augue tincidunt varius vivamus auctor eros. Felis dis bibendum penatibus quam sollicitudin eu montes elit. Aliquet varius aenean quis; donec posuere maecenas? Tincidunt integer sapien luctus finibus ad feugiat. Ante rutrum finibus potenti elit mauris finibus penatibus. Cursus posuere mauris turpis id, eleifend semper risus magnis justo. Egestas nunc lorem enim class pellentesque aliquam quam. Porta quis malesuada lacus quis sapien dapibus et commodo.';
