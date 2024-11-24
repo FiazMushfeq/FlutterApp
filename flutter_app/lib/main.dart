@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/core/notifiers.dart';
-import 'package:flutter_app/pages/home_page.dart';
 import 'package:flutter_app/widget_tree.dart';
 
 void main() {
